@@ -1,6 +1,4 @@
-1. Write the output with reason
-
-```js
+1.Write the output with reason
 const person = {
   firstName: 'John',
   lastName: 'Doe',
@@ -16,11 +14,7 @@ console.log(person.lastName); // output
 console.log(person == person2); // output
 console.log(person === person2); // output
 console.log(person.lastName === person2.lastName); // output
-```
-
-2. Write the output with reason:
-
-```js
+Write the output with reason:
 let person = {
   firstName: 'John',
   lastName: 'Doe',
@@ -48,11 +42,7 @@ console.log(person.address == personTwo.address); // output
 console.log(personTwo.address.city); // output
 console.log(person.address.city); // output
 console.log(person.address.city == personTwo.address.city); // output
-```
-
-3. Write the output with reason:
-
-```js
+Write the output with reason:
 let person = {
   firstName: 'John',
   lastName: 'Doe',
@@ -80,11 +70,7 @@ console.log(person.address == personTwo.address); // output
 console.log(personTwo.address.city); // output
 console.log(person.address.city); // output
 console.log(person.address.city == personTwo.address.city); // output
-```
-
-4. Clone the `blogs` variable into a new variable named `clonedBlogs`
-
-```js
+Clone the blogs variable into a new variable named clonedBlogs
 let blogs = [
   {
     id: 1,
@@ -104,11 +90,7 @@ let blogs = [
 ];
 
 // Your code goes here
-```
-
-5. Clone the `question` variable into a new variable named `questionClone`
-
-```js
+Clone the question variable into a new variable named questionClone
 var questions = [
   {
     prompt: 'Why is the sky blue?',
@@ -129,11 +111,7 @@ var questions = [
 ];
 
 // Your code goes here
-```
-
-6. Clone the `allBlogs` variable into a new variable named `allBlogsClone`
-
-```js
+Clone the allBlogs variable into a new variable named allBlogsClone
 var allBlogs = {
   id: 1,
   title: 'Alamofire JSON Serialization',
@@ -156,11 +134,7 @@ var allBlogs = {
 };
 
 // Your code goes here
-```
-
-7. Clone the `person` variable into a new variable named `clonedPerson`
-
-```js
+Clone the person variable into a new variable named clonedPerson
 let person = [
   {
     input: { name: 'Ryan' },
@@ -189,11 +163,7 @@ let person = [
 ];
 
 // Your code goes here
-```
-
-8. Write a function named `cloneObject` that accepts an object and returns the clone of the object
-
-```js
+Write a function named cloneObject that accepts an object and returns the clone of the object
 function cloneObject() {
   // your code
 }
@@ -230,4 +200,3 @@ console.log(
     person == clonedPerson ? `not clone` : `cloned successfully 😁👑`
   }`
 );
-```
